@@ -10,15 +10,36 @@
 </head>
 
 <body>
-    <header>
-        <h1>FIGMA LAND</h1>
-        <h2>The best products start with Figma</h2>
-        <h4>Most calendars are designed for teams. Slate is designed
-            for freelancers</h4>
-        <button type="submit">Try For Free</button>
+    <header class="header">
+        <img class="header__logo" src="img/figmaland-logo.png" width="100" alt="Figmaland logo">
+        <nav class="header__nav">
+            <div class="nav__text">
+                <!-- якщо стилі для меню однакові, навіщо окремо клас кожному пункту?? -->
+                <a href="#home" class="nav__text-item">Home</a>
+                <a href="#product" class="nav__text-item">Product</a>
+                <a href="#pricing" class="nav__text-item">Pricing</a>
+                <a href="#about" class="nav__text-item">About</a>
+                <a href="#contact" class="nav__text-item">Contact</a>
+            </div>
+            <div class="nav__img">
+                <a href="https://twitter.com/SoftServeInc">
+                    <img src="img/twitter-logo.png" target="_blank" alt="Twitter Logo.png"></a>
+                <a href="https://www.facebook.com/SoftServeCompany">
+                    <img src="img/facebook-logo.png" target="_blank" alt="Facebook Logo.png"></a>
+                <a href="https://www.linkedin.com/company/softserve">
+                    <img src="img/linkedin-logo.png" target="_blank" alt="Linkedin Logo.png"></a>
+            </div>
+        </nav>
     </header>
     <main>
-        <div>
+        <section class="under-header">
+            <h1 class="underheader__logo">FIGMA LAND</h1>
+            <h2 class="underheader__title">The best products start with Figma</h2>
+            <p class="underheader__text>"></p>Most calendars are designed for teams. Slate is designed
+            for freelancers</p>
+            <a href="#" class="underheader__button">Try For Free</a>
+        </section>
+        <section>
             <h2>Features</h2>
             <h4>Most calendars are designed for teams. Slate is designed
                 for freelancers</h4>
@@ -32,13 +53,13 @@
             <h3>Fastest way to take action</h3>
             <p>Slate helps you see how many more days you need to work to reach your
                 financial goal.</p>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2>Fastest way to organize</h2>
             <h4>Most calendars are designed for teams.</h4>
             <button type="submit">Try For Free</button>
-        </div>
-        <div>
+        </section>
+        <section>
             <h3>At your fingertips</h3>
             <h4>Most calendars are designed for teams. Slate is designed
                 for freelancers</h4>
@@ -46,8 +67,8 @@
             <p>Available exclusivery on Figmaland</p>
             <input type="text" placeholder="Your Email">
             <button type="submit">Subscribe</button>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2>Partners</h2>
             <h4>Most calendars are designed for teams. Slate is designed
                 for freelancers</h4>
@@ -58,19 +79,19 @@
             <img src="img/microsoft-logo.jpg" alt="microsoft-logo">
             <br>
             <button type="submit">Try For Free</button>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2>Testimonials</h2>
             <br>
             <img src="img/ibm-logo.jpg" alt="ibm-logo">
             <p>Most calendars are designed for teams. Slate
                 is designed for freelancers who want a simple way to plan their schedule.</p>
             <button type="submit">More Testimonials</button>
-        </div>
-        <div>
+        </section>
+        <section>
             <h2>Pricing</h2>
             <h4>Most calendars are designed for teams.</h4>
-            <div>
+            <section>
                 <h3>FREE</h3>
                 <h5>Organize across all apps by hand</h5>
                 <h1>0</h1>
@@ -84,8 +105,8 @@
                     <p>Pricing Feature</p>
                 </div>
                 <button type="submit">Order Now</button>
-            </div>
-            <div>
+            </section>
+            <section>
                 <h3>STANDARD</h3>
                 <h5>Organize across all apps by hand</h5>
                 <h1>10</h1>
@@ -99,8 +120,8 @@
                     <p>Pricing Feature</p>
                 </div>
                 <button type="submit">Order Now</button>
-            </div>
-            <div>
+            </section>
+            <section>
                 <h3>BUSINESS</h3>
                 <h5>Organize across all apps by hand</h5>
                 <h1>99</h1>
@@ -114,33 +135,31 @@
                     <p>Pricing Feature</p>
                 </div>
                 <button type="submit">Order Now</button>
+            </section>
             </div>
-        </div>
-        <div>
-            <h2>Contact Us</h2>
-            <h4>Most calendars are designed for teams.</h4>
-            <div>
-                <img src="img/social-icons.png" alt="social-icons">
-            </div>
-            <div>
-                <h5>6386 Spring St undefined Anchorage, Georgia 12473 United States</h5>
-                <h5><a href="tel:+8435550130">(843) 555-0130</a></h5>
-                <h5><a href="mailto:willie.jennings@example.com">willie.jennings@example.com</a></h5>
-            </div>
-            <div>
-                <h3>Contact Us</h3>
-                <form>
-                    <input type="text" placeholder="Your Name">
-                    <input type="email" placeholder="Your Email">
-                    <input type="text" placeholder="Your Message">
-                    <button type="submit">SEND</button>
-                </form>
-            </div>
-        </div>
-
-        <p>
-        </p>
-        <!-- <img src="img/background.jpg" alt="rest"> -->
+            <section>
+                <h2>Contact Us</h2>
+                <h4>Most calendars are designed for teams.</h4>
+                <div>
+                    <img src="img/social-icons.png" alt="social-icons">
+                </div>
+                <div>
+                    <h5>6386 Spring St undefined Anchorage, Georgia 12473 United States</h5>
+                    <h5><a href="tel:+8435550130">(843) 555-0130</a></h5>
+                    <h5><a href="mailto:willie.jennings@example.com">willie.jennings@example.com</a></h5>
+                </div>
+                <div>
+                    <h3>Contact Us</h3>
+                    <form>
+                        <input type="text" placeholder="Your Name">
+                        <input type="email" placeholder="Your Email">
+                        <input type="text" placeholder="Your Message">
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+            </section>
+            <p>
+            </p>
     </main>
     <footer>
 
